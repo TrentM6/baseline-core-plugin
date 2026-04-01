@@ -18,7 +18,7 @@ git clone https://github.com/TrentM6/baseline-core-plugin.git
 
 ### 2. Set Up Your Context
 
-Open the folder in Claude Code or start a Claude session and run `/plugin-setup`. It's a guided interview that asks about your business and generates your context files.
+Open the folder in Claude Code or Claude Cowork and run `/plugin-setup`. It's a guided interview that asks about your business and generates your context files.
 
 The setup skill will walk you through:
 - **Identity** (required) — What you do, how you're positioned, what makes you different
@@ -37,7 +37,7 @@ Identity and voice are required — they get you most of the value. The rest add
 
 ### 3. Upload to Claude
 
-Once your context is populated, zip the folder and upload it as a plugin in Claude. Your customized plugin now works across Claude Code and claude.ai — your business context travels with it.
+Once your context is populated, zip the folder and upload it as a plugin in Claude. Your customized plugin now works across Claude Code and Claude Cowork — your business context travels with it.
 
 ### Updating Your Context
 
@@ -95,7 +95,7 @@ Plus `/plugin-setup` for initial configuration and `/update` for version managem
 
 ## How It Works
 
-Baseline Core works as a plugin in Claude Code and on claude.ai. When you trigger a skill (like `/product-marketing` or `/strategic-advisory`), it loads:
+Baseline Core works as a plugin in Claude Code and Claude Cowork. When you trigger a skill (like `/product-marketing` or `/strategic-advisory`), it loads:
 1. Your business context (identity + voice, always)
 2. Relevant extended context (product, users, audience, etc. — only when needed)
 3. Shared frameworks (prioritization, messaging, etc. — based on the skill)
