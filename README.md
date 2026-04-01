@@ -18,7 +18,7 @@ git clone https://github.com/TrentM6/baseline-core-plugin.git
 
 ### 2. Set Up Your Context
 
-Open the folder with Claude Code and run `/plugin-setup`. It's a guided interview that asks about your business and generates your context files.
+Open the folder in Claude Code or start a Claude session and run `/plugin-setup`. It's a guided interview that asks about your business and generates your context files.
 
 The setup skill will walk you through:
 - **Identity** (required) — What you do, how you're positioned, what makes you different
@@ -37,7 +37,7 @@ Identity and voice are required — they get you most of the value. The rest add
 
 ### 3. Upload to Claude
 
-Once your context is populated, zip the folder and upload it as a plugin in Claude. Your customized plugin now works in any project, any directory — your business context travels with it.
+Once your context is populated, zip the folder and upload it as a plugin in Claude. Your customized plugin now works across Claude Code and claude.ai — your business context travels with it.
 
 ### Updating Your Context
 
@@ -68,10 +68,12 @@ When a new version of Baseline Core is released, run `/update` to pull the lates
 | Thinking Partner | Strategic thinking, decisions, brainstorming, pressure-testing assumptions |
 | Skill Building | Create new skills for the system |
 
+Plus `/plugin-setup` for initial configuration and `/update` for version management.
+
 **13 Frameworks** — Reusable methodologies that skills draw from: workflow orchestration, prioritization, decision-making, strategy, research, messaging, UX heuristics, project management, stakeholder communication, facilitation, change management, pace layering, and session planning.
 
 **3 Agents** — Background support that runs alongside skills:
-- **Quality Review** — Checks deliverables against your voice, formatting, and content standards
+- **Quality Review** — Evaluates any skill's output for effectiveness, voice consistency, and fitness for purpose
 - **Research** — Gathers market, competitive, or domain context without breaking conversation flow
 - **Context Loader** — Synthesizes your context files into focused briefs for skills
 
@@ -93,7 +95,7 @@ When a new version of Baseline Core is released, run `/update` to pull the lates
 
 ## How It Works
 
-When you trigger a skill (like `/product-marketing` or `/strategic-advisory`), it loads:
+Baseline Core works as a plugin in Claude Code and on claude.ai. When you trigger a skill (like `/product-marketing` or `/strategic-advisory`), it loads:
 1. Your business context (identity + voice, always)
 2. Relevant extended context (product, users, audience, etc. — only when needed)
 3. Shared frameworks (prioritization, messaging, etc. — based on the skill)
