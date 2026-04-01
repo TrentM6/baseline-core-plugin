@@ -2,7 +2,7 @@
 
 <!-- RECOMMENDED: This file describes what your product or service actually does. Skills like UX Design, Prototyping, Product Communications, and Technical Documentation use this to produce work that's grounded in your real product, not generic assumptions. -->
 <!-- Fill in the sections that apply to you. -->
-<!-- To generate this file automatically, run the /setup skill. -->
+<!-- To generate this file automatically, run the /plugin-setup skill. -->
 
 ## What It Is
 

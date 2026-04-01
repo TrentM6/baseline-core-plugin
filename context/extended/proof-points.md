@@ -2,7 +2,7 @@
 
 <!-- RECOMMENDED: This file contains your evidence — case studies, metrics, testimonials, and credibility markers. Skills like Product Marketing and the Research agent use this to back up claims with real evidence. -->
 <!-- Fill in the sections that apply to you. Add or remove case studies as needed. -->
-<!-- To generate this file automatically, run the /setup skill. -->
+<!-- To generate this file automatically, run the /plugin-setup skill. -->
 
 ## Case Studies
 

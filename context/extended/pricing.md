@@ -2,7 +2,7 @@
 
 <!-- RECOMMENDED: This file describes your pricing model and strategy. Skills like Go-to-Market Planning, Product Marketing, and Strategic Advisory use this when working on pricing pages, proposals, competitive positioning, and sales materials. -->
 <!-- Fill in the sections that apply to you. -->
-<!-- To generate this file automatically, run the /setup skill. -->
+<!-- To generate this file automatically, run the /plugin-setup skill. -->
 
 ## Pricing Model
 

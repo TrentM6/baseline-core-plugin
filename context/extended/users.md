@@ -3,7 +3,7 @@
 <!-- RECOMMENDED: This file describes the people who actually use your product. Skills like UX Design, Research & Synthesis, Product Analytics, and Product Communications use this to ground their work in real user needs rather than generic personas. -->
 <!-- This is different from audience.md — audience describes who you market/sell to. Users describes who interacts with the product day-to-day. They may overlap or be completely different people. -->
 <!-- Fill in the sections that apply to you. -->
-<!-- To generate this file automatically, run the /setup skill. -->
+<!-- To generate this file automatically, run the /plugin-setup skill. -->
 
 ## Primary Users
 

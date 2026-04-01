@@ -2,7 +2,7 @@
 
 <!-- RECOMMENDED: This file describes your technical environment. Skills like Prototyping, Technical Documentation, and UX Design use this to produce work that's compatible with your actual stack and constraints. -->
 <!-- Fill in the sections that apply to you. Not all sections are relevant to every business. -->
-<!-- To generate this file automatically, run the /setup skill. -->
+<!-- To generate this file automatically, run the /plugin-setup skill. -->
 
 ## Tech Stack
 

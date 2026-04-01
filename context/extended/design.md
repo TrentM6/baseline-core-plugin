@@ -2,7 +2,7 @@
 
 <!-- RECOMMENDED: This file defines your visual identity, design system, and UI patterns. Skills like Prototyping, UX Design, and Visual Communication use this to produce on-brand, production-ready output. -->
 <!-- Fill in the sections that apply to you. The more detail you provide, the more accurate and consistent the output will be. -->
-<!-- To generate this file automatically, run the /setup skill. -->
+<!-- To generate this file automatically, run the /plugin-setup skill. -->
 
 ## Visual Theme & Atmosphere
 

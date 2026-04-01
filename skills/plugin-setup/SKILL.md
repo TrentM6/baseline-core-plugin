@@ -1,8 +1,8 @@
 ---
-description: "Setup — Configure Baseline Core with your business context. Interviews you about your company and generates the context files that make every skill work for your specific business. Triggers: setup, configure, onboard, get started, set up context, customize plugin, initialize"
+description: "Plugin Setup — Configure Baseline Core with your business context. Interviews you about your company and generates the context files that make every skill work for your specific business. Triggers: plugin setup, configure plugin, onboard, get started, set up context, customize plugin, initialize plugin, set up plugin"
 ---
 
-# Setup
+# Plugin Setup
 
 This skill walks you through setting up the business context that powers every other skill in Baseline Core. It interviews you about your company, then generates context files tailored to your answers.
 
@@ -76,12 +76,16 @@ No other context files are needed — this skill creates them.
 **Purpose:** Define how the user sounds.
 
 **What to do:**
-1. Ask about their communication style:
-   - "How would you describe the way you communicate? If you were writing an email to a customer, what would it sound like?"
-   - "Are there words or phrases you never want to use?"
+1. Ask about their communication style. Go deep — voice is the most impactful file:
+   - "How would you describe the way you communicate? 3-5 adjectives and what that sounds like in practice."
    - "Do you write as 'I' or 'we'?"
-   - "Is your tone different when you're writing strategy vs. marketing vs. documentation?"
-2. If the user has existing content (website, emails, docs), offer to look at it to extract voice patterns
+   - "How do you structure sentences? Short and punchy? Longer and flowing? Do you use fragments?"
+   - "Do you lead with the point or build up to it?"
+   - "What words or phrases do you never want to use? Be exhaustive."
+   - "Are there words or phrases you love — things that feel distinctly like your voice?"
+   - "Is your tone different when writing strategy vs. marketing vs. documentation vs. social media vs. email?"
+   - "Can you share 2-3 examples of writing that sounds like you — a great email, social post, or website copy?"
+2. If the user has existing content (website, emails, docs), offer to look at it to extract voice patterns — this is often more accurate than self-description
 3. Generate `voice.md` with their answers
 4. Show them the file and ask: "Does this sound like you?"
 5. Iterate until it feels right — voice is the most subjective file, so expect a round or two of revision
@@ -128,8 +132,12 @@ No other context files are needed — this skill creates them.
 
 **Audience:**
 - "Who do you market and sell to? Is that the same person as the user?"
+- "Is the buyer and the user the same person? Who champions your product internally?"
 - "What problems do they have that lead them to you?"
+- "What triggers someone to look for a solution like yours right now? What's the moment?"
 - "What have they tried before finding you?"
+- "How do they evaluate and buy? What's the decision process and timeline?"
+- "Where do they hang out — online communities, conferences, social platforms, newsletters?"
 - "How do they talk about their problems? What words do they use?"
 - "Are there signals that someone is NOT a good fit?"
 
@@ -153,9 +161,13 @@ No other context files are needed — this skill creates them.
 - "Any core design principles that guide your decisions?"
 
 **Formatting:**
-- "Do you have conventions for how documents are structured?"
-- "What does a typical report or PRD look like for you?"
-- "Any specific formatting rules your team follows?"
+- "Do you have conventions for how documents are structured? Headers, paragraphs, lists?"
+- "How do you write headers — title case, sentence case? How deep do you go (H2, H3, H4)?"
+- "What does a typical PRD look like for you? Status update? Research report? Proposal?"
+- "Do you have specific templates for common document types?"
+- "How do you handle links, code snippets, and technical content in documents?"
+- "Any rules about emphasis — when to bold, italicize, use code formatting?"
+- "How do you structure emails?"
 
 **Proof Points:**
 - "Do you have case studies or customer success stories?"

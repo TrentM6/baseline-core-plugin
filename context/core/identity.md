@@ -2,7 +2,7 @@
 
 <!-- REQUIRED: This file tells the plugin who you are and what you do. Every skill loads this file. Without it, skills produce generic output. -->
 <!-- Fill in each section below. Delete the instructions in parentheses once you've added your content. -->
-<!-- To generate this file automatically, run the /setup skill. -->
+<!-- To generate this file automatically, run the /plugin-setup skill. -->
 
 ## Company
 

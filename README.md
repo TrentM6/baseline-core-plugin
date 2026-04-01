@@ -18,7 +18,7 @@ git clone https://github.com/TrentM6/baseline-core-plugin.git
 
 ### 2. Set Up Your Context
 
-Open the folder with Claude Code and run `/setup`. It's a guided interview that asks about your business and generates your context files.
+Open the folder with Claude Code and run `/plugin-setup`. It's a guided interview that asks about your business and generates your context files.
 
 The setup skill will walk you through:
 - **Identity** (required) — What you do, how you're positioned, what makes you different
@@ -41,7 +41,7 @@ Once your context is populated, zip the folder and upload it as a plugin in Clau
 
 ### Updating Your Context
 
-To update your context, go back to your local copy, edit the files in `context/` (or re-run `/setup`), re-zip, and re-upload.
+To update your context, go back to your local copy, edit the files in `context/` (or re-run `/plugin-setup`), re-zip, and re-upload.
 
 ### Updating the Plugin
 

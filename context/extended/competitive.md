@@ -2,7 +2,7 @@
 
 <!-- RECOMMENDED: This file maps your competitive environment. Skills like Product Marketing, Go-to-Market Planning, Research & Synthesis, and Strategic Advisory use this to position your work against real alternatives. -->
 <!-- Fill in the sections that apply to you. -->
-<!-- To generate this file automatically, run the /setup skill. -->
+<!-- To generate this file automatically, run the /plugin-setup skill. -->
 
 ## Direct Competitors
 
