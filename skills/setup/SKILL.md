@@ -139,11 +139,18 @@ No other context files are needed — this skill creates them.
 - "What are the indirect alternatives? Spreadsheets, hiring someone, doing nothing?"
 - "How do you position yourself relative to the market?"
 
-**Design:**
-- "What are your brand colors? Do you have hex values?"
-- "What fonts do you use?"
-- "Do you have a design system or component library? What are the key patterns?"
-- "Any design principles that guide your visual decisions?"
+**Design:** (This one goes deep — it covers visual identity, components, layout, and responsiveness. Take it section by section.)
+- "What's the overall feel of your design? Describe the vibe — minimal, bold, warm, corporate, playful?"
+- "Walk me through your color palette. What are your primary, surface, semantic, and neutral colors? Hex values if you have them."
+- "What fonts do you use? What's the type hierarchy — sizes, weights, line heights for headings vs. body vs. labels?"
+- "Describe your key components — how do buttons, cards, inputs, navigation, tables, and modals look?"
+- "What's your spacing system? Do you use a base unit like 8px? What's your grid setup?"
+- "What layout patterns does your product use? Dashboards, list views, detail pages, forms, chat, kanban boards, settings pages, landing pages?"
+- "How do you handle depth and elevation? Shadows, borders, layering?"
+- "What are the do's and don'ts of your design system?"
+- "How does your design respond across breakpoints — mobile, tablet, desktop?"
+- "Do you have an existing design system, Figma file, or component library I should reference?"
+- "Any core design principles that guide your decisions?"
 
 **Formatting:**
 - "Do you have conventions for how documents are structured?"
