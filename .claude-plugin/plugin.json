@@ -1,0 +1,12 @@
+{
+  "name": "Baseline Core",
+  "version": "1.0.0",
+  "description": "A complete AI system for product work. 12 domain skills, 13 shared frameworks, and customizable business context for strategic advisory, research, product communications, UX design, analytics, prototyping, project management, documentation, visual communication, product marketing, go-to-market planning, and skill building.",
+  "author": {
+    "name": "Baseline"
+  },
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "outputStyles": "./output-styles/",
+  "hooks": "./hooks/hooks.json"
+}
