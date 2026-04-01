@@ -52,7 +52,7 @@ Key Results:
 | Airbnb | Nights booked |
 | Spotify | Time listening |
 | Slack | Messages sent |
-| Baseline | Engagements delivering clear ROI |
+| HubSpot | Weekly active teams |
 
 **Usage:**
 - Aligns teams around one number
@@ -210,7 +210,7 @@ Simpler than RICE:
 
 2. **Differentiation:** Win by being different/better
    - Unique value, premium pricing
-   - Example: Apple, Baseline
+   - Example: Apple, Tesla
 
 3. **Focus:** Win by serving a niche deeply
    - Narrow market, deep expertise

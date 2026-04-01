@@ -143,7 +143,7 @@ Use for: LinkedIn posts, Twitter threads, brief announcements.
 > Most teams skip it and ship fast in the wrong direction.
 
 **CTA:**
-> That's what I focus on at Baseline.
+> That's what I help teams do.
 
 ### Tips
 - Hook should create curiosity or pattern interrupt

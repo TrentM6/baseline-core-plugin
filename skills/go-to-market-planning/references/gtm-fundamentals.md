@@ -226,7 +226,7 @@ The activation moment is when a user first experiences real value. It's the most
 - Slack: Sent 2,000 messages as a team
 - Dropbox: Uploaded first file
 - Zoom: Completed first meeting
-- Baseline: Ran first skill with loaded context
+- Notion: Created first shared workspace
 
 ### Adoption Milestones
 
@@ -234,7 +234,7 @@ Track users through these milestones:
 
 | Milestone | Definition | Target |
 |-----------|-----------|--------|
-| **Signed up** | Created account or installed | Baseline |
+| **Signed up** | Created account or installed | 100% |
 | **Onboarded** | Completed setup/configuration | 80% of sign-ups within 1 week |
 | **Activated** | Hit the activation moment | 40-60% of onboarded within 2 weeks |
 | **Habitual** | Used 3+ times in 30 days | 60% of activated within 30 days |

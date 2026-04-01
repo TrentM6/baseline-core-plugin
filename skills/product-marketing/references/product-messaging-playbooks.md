@@ -32,10 +32,10 @@ we [key differentiator supported by proof].
 ### Example: Strong vs. Weak
 
 **Weak:**
-> For companies that want to innovate, Baseline is a consulting service that helps with product strategy and AI implementation.
+> For companies that want to improve, Acme is a platform that helps with productivity and collaboration.
 
 **Strong:**
-> For product teams shipping without confidence in direction, Baseline is the AI workflow system that turns research into shipped product decisions in days, not months. Unlike agencies, you work directly with one senior operator — and own the system after.
+> For ops teams drowning in manual workflows, Acme is the automation platform that turns repetitive tasks into one-click processes — saving 10 hours per person per week. Unlike enterprise tools, you're live in a day, not a quarter.
 
 **Why the strong version works:**
 - Specific audience (product teams shipping without confidence)

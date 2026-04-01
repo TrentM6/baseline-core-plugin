@@ -8,7 +8,7 @@
 
 ## Architecture Overview
 
-The Baseline System uses a **centralized architecture**:
+Baseline Core uses a **centralized architecture**:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐

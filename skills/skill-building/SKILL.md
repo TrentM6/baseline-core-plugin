@@ -4,7 +4,7 @@ description: "Skill Building — Creating new skills, documenting expertise, and
 
 # Skill Building
 
-Skill building is the meta-skill of creating new skills for the Baseline System. It's about capturing domain expertise in a structured, reusable format that AI tools can execute consistently.
+Skill building is the meta-skill of creating new skills for Baseline Core. It's about capturing domain expertise in a structured, reusable format that AI tools can execute consistently.
 
 ## Before You Start
 

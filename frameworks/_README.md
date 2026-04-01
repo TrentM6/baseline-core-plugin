@@ -114,4 +114,4 @@ You typically don't load frameworks directly — skills handle it (automatically
 
 - [Skills](../skills/_README.md) — Domain expertise that references frameworks
 - [Workflow Orchestration](workflow-orchestration.md) — The meta-framework that all skills follow
-- [System Overview](../README.md) — How to use the Baseline System
+- [System Overview](../README.md) — How to use Baseline Core

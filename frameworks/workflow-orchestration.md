@@ -2,7 +2,7 @@
 
 > The universal pattern for how all skills work. Load this once, apply it everywhere.
 
-All Baseline System skills follow this workflow pattern. Skills contain domain-specific expertise. This document contains the meta-workflow — how to think about executing any skill effectively.
+All Baseline Core skills follow this workflow pattern. Skills contain domain-specific expertise. This document contains the meta-workflow — how to think about executing any skill effectively.
 
 ---
 
