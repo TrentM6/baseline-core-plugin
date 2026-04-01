@@ -17,6 +17,10 @@ UX design is the discipline of understanding users deeply and crafting experienc
 - `${CLAUDE_PLUGIN_ROOT}/context/core/voice.md` — Tone, language rules
 - `${CLAUDE_PLUGIN_ROOT}/context/extended/design.md` — Design system, colors, typography, visual standards
 
+**Context (load when relevant):**
+- `${CLAUDE_PLUGIN_ROOT}/context/extended/product.md` — Product features, workflows, current state
+- `${CLAUDE_PLUGIN_ROOT}/context/extended/users.md` — User personas, goals, pain points
+
 **References (load when needed):**
 - `${CLAUDE_PLUGIN_ROOT}/skills/ux-design/references/ux-methods.md` — Journey mapping, personas, IA methods
 - `${CLAUDE_PLUGIN_ROOT}/skills/ux-design/references/design-principles.md` — Gestalt, hierarchy, affordance

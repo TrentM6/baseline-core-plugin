@@ -20,6 +20,9 @@ Load the following files to execute this skill properly:
 - `${CLAUDE_PLUGIN_ROOT}/context/core/identity.md` — Services, positioning, terminology
 - `${CLAUDE_PLUGIN_ROOT}/context/core/voice.md` — Tone, language rules
 
+**Context (load when relevant):**
+- `${CLAUDE_PLUGIN_ROOT}/context/extended/competitive.md` — Competitors, market positioning
+
 **References (load when the task needs detailed guidance):**
 - `${CLAUDE_PLUGIN_ROOT}/skills/strategic-advisory/references/strategy-frameworks.md` — Deep framework details
 - `${CLAUDE_PLUGIN_ROOT}/skills/strategic-advisory/references/stakeholder-management.md` — Stakeholder mapping, managing up

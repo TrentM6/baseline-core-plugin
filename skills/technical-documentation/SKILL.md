@@ -16,6 +16,10 @@ Technical documentation is the discipline of making products understandable. It 
 - `${CLAUDE_PLUGIN_ROOT}/context/core/voice.md` — Tone, language rules
 - `${CLAUDE_PLUGIN_ROOT}/context/extended/formatting.md` — Document structure conventions
 
+**Context (load when relevant):**
+- `${CLAUDE_PLUGIN_ROOT}/context/extended/product.md` — Product features, workflows, current state
+- `${CLAUDE_PLUGIN_ROOT}/context/extended/technical.md` — Tech stack, architecture, constraints
+
 **References (load when needed):**
 - `${CLAUDE_PLUGIN_ROOT}/skills/technical-documentation/references/documentation-standards.md` — Style guides, writing standards
 - `${CLAUDE_PLUGIN_ROOT}/skills/technical-documentation/references/information-architecture.md` — Content organization, navigation

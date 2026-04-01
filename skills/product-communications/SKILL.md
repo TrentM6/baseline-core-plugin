@@ -17,6 +17,9 @@ Product communications is writing documents that move work forward. PRDs, specs,
 - `${CLAUDE_PLUGIN_ROOT}/context/core/voice.md` — Tone, writing style
 - `${CLAUDE_PLUGIN_ROOT}/context/extended/formatting.md` — Document structure conventions
 
+**Context (load when relevant):**
+- `${CLAUDE_PLUGIN_ROOT}/context/extended/product.md` — Product features, workflows, current state
+
 **References (load when the task needs detailed guidance):**
 - `${CLAUDE_PLUGIN_ROOT}/skills/product-communications/references/document-templates.md` — PRD, brief, spec templates
 - `${CLAUDE_PLUGIN_ROOT}/skills/product-communications/references/communication-dynamics.md` — Audience adaptation, executive summaries

@@ -16,6 +16,10 @@ Prototyping is the discipline of making ideas tangible quickly. It's about learn
 - `${CLAUDE_PLUGIN_ROOT}/context/core/voice.md` — Tone, language rules
 - `${CLAUDE_PLUGIN_ROOT}/context/extended/design.md` — Design system, colors, typography, visual standards
 
+**Context (load when relevant):**
+- `${CLAUDE_PLUGIN_ROOT}/context/extended/product.md` — Product features, workflows, current state
+- `${CLAUDE_PLUGIN_ROOT}/context/extended/technical.md` — Tech stack, architecture, constraints
+
 **References (load when needed):**
 - `${CLAUDE_PLUGIN_ROOT}/skills/prototyping/references/prototyping-tools.md` — Tool selection guide
 - `${CLAUDE_PLUGIN_ROOT}/skills/prototyping/references/prototyping-methods.md` — Fidelity levels, methods

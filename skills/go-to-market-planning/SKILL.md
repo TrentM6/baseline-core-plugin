@@ -16,6 +16,10 @@ Go-to-market planning is the discipline of bringing products to users in a way t
 - `${CLAUDE_PLUGIN_ROOT}/context/core/voice.md` — Tone, language rules
 - `${CLAUDE_PLUGIN_ROOT}/context/extended/audience.md` — Target audience
 
+**Context (load when relevant):**
+- `${CLAUDE_PLUGIN_ROOT}/context/extended/competitive.md` — Competitors, market positioning
+- `${CLAUDE_PLUGIN_ROOT}/context/extended/pricing.md` — Pricing model, tiers, objection handling
+
 **References (load when needed):**
 - `${CLAUDE_PLUGIN_ROOT}/skills/go-to-market-planning/references/gtm-fundamentals.md` — GTM frameworks, launch playbooks
 - `${CLAUDE_PLUGIN_ROOT}/skills/go-to-market-planning/references/sales-enablement.md` — Sales process, objection handling

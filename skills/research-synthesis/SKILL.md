@@ -18,6 +18,10 @@ Load the following files to execute this skill properly:
 - `${CLAUDE_PLUGIN_ROOT}/context/core/identity.md` — Product, positioning, terminology
 - `${CLAUDE_PLUGIN_ROOT}/context/core/voice.md` — Tone, language rules
 
+**Context (load when relevant):**
+- `${CLAUDE_PLUGIN_ROOT}/context/extended/users.md` — User personas, goals, pain points
+- `${CLAUDE_PLUGIN_ROOT}/context/extended/competitive.md` — Competitors, market positioning
+
 **References (load when the task needs detailed guidance):**
 - `${CLAUDE_PLUGIN_ROOT}/skills/research-synthesis/references/interview-guide.md` — Interview guide creation
 - `${CLAUDE_PLUGIN_ROOT}/skills/research-synthesis/references/research-report.md` — Research report writing

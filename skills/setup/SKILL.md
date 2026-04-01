@@ -31,13 +31,18 @@ No other context files are needed — this skill creates them.
 **Purpose:** Understand what's already set up.
 
 **What to do:**
-1. Read all 6 context files:
+1. Read all 11 context files:
    - `${CLAUDE_PLUGIN_ROOT}/context/core/identity.md`
    - `${CLAUDE_PLUGIN_ROOT}/context/core/voice.md`
+   - `${CLAUDE_PLUGIN_ROOT}/context/extended/product.md`
+   - `${CLAUDE_PLUGIN_ROOT}/context/extended/users.md`
+   - `${CLAUDE_PLUGIN_ROOT}/context/extended/audience.md`
+   - `${CLAUDE_PLUGIN_ROOT}/context/extended/competitive.md`
    - `${CLAUDE_PLUGIN_ROOT}/context/extended/design.md`
    - `${CLAUDE_PLUGIN_ROOT}/context/extended/formatting.md`
-   - `${CLAUDE_PLUGIN_ROOT}/context/extended/audience.md`
    - `${CLAUDE_PLUGIN_ROOT}/context/extended/proof-points.md`
+   - `${CLAUDE_PLUGIN_ROOT}/context/extended/pricing.md`
+   - `${CLAUDE_PLUGIN_ROOT}/context/extended/technical.md`
 2. Check which files have real content vs. template placeholders (HTML comments with instructions)
 3. Report what's set up and what isn't
 
@@ -91,16 +96,48 @@ No other context files are needed — this skill creates them.
 **Purpose:** Set up the recommended files that deepen skill performance.
 
 **What to do:**
-1. Tell the user: "The essentials are done — every skill will now work for your business. There are 4 more context files that make specific skills even better. Want to set any of these up now?"
+1. Tell the user: "The essentials are done — every skill will now work for your business. There are 9 more context files that make specific skills even better. Want to set any of these up now?"
 2. Present the options with what they unlock:
-   - **Design** — Colors, typography, design system. Makes Prototyping, UX Design, and Visual Communication skills produce on-brand output.
+   - **Product** — What your product does, features, how it works. Makes UX Design, Prototyping, Product Communications, and Technical Documentation grounded in your real product.
+   - **Users** — User personas, goals, pain points, friction. Makes UX Design, Research, and Product Analytics work from real user needs.
+   - **Audience** — Who you market and sell to, buyer personas. Makes Product Marketing, Go-to-Market, and Research target the right people. (Different from Users — audience is who you sell to, users is who interacts with the product.)
+   - **Competitive** — Competitors, market positioning, alternatives. Makes Product Marketing, GTM, Research, and Strategic Advisory factor in real competition.
+   - **Design** — Colors, typography, design system. Makes Prototyping, UX Design, and Visual Communication produce on-brand output.
    - **Formatting** — Document structure conventions. Makes Product Communications, Technical Documentation, and quality reviews follow your standards.
-   - **Audience** — Who you serve, their pain points, how they talk. Makes Product Marketing, Go-to-Market, and Research skills target the right people.
    - **Proof Points** — Case studies, metrics, testimonials. Makes marketing and sales skills back up claims with real evidence.
+   - **Pricing** — Pricing model, tiers, objections. Makes Go-to-Market Planning, Product Marketing, and proposals reference real pricing.
+   - **Technical** — Tech stack, architecture, integrations. Makes Prototyping and Technical Documentation compatible with your actual technology.
 3. For each file the user wants to set up, follow the same pattern: conversational interview → generate file → show for approval → write final version
 4. For files they skip, leave the templates in place — skills degrade gracefully without them
 
 **Interview guides for each extended file:**
+
+**Product:**
+- "Tell me about your product — what does it do and what form does it take?"
+- "What are the main features or capabilities?"
+- "Walk me through what a user does from start to finish."
+- "What makes your product different from alternatives, as a product?"
+- "Where is it right now — live, beta, pre-launch? What are you building next?"
+
+**Users:**
+- "Who actually uses your product day-to-day? Describe them."
+- "What are they trying to accomplish?"
+- "What frustrates them about their current situation?"
+- "Do you have different types of users who use it differently?"
+- "How do your users talk about their work? What words do they use?"
+
+**Audience:**
+- "Who do you market and sell to? Is that the same person as the user?"
+- "What problems do they have that lead them to you?"
+- "What have they tried before finding you?"
+- "How do they talk about their problems? What words do they use?"
+- "Are there signals that someone is NOT a good fit?"
+
+**Competitive:**
+- "Who are your main competitors? What do they do well?"
+- "Where do competitors fall short — and where do you win?"
+- "What are the indirect alternatives? Spreadsheets, hiring someone, doing nothing?"
+- "How do you position yourself relative to the market?"
 
 **Design:**
 - "What are your brand colors? Do you have hex values?"
@@ -113,18 +150,23 @@ No other context files are needed — this skill creates them.
 - "What does a typical report or PRD look like for you?"
 - "Any specific formatting rules your team follows?"
 
-**Audience:**
-- "Who is your primary customer? Describe them specifically."
-- "What problems do they have that you solve?"
-- "What have they tried before finding you?"
-- "How do they talk about their problems? What words do they use?"
-- "Are there signals that someone is NOT a good fit?"
-
 **Proof Points:**
 - "Do you have case studies or customer success stories?"
 - "What measurable outcomes have you delivered?"
 - "Do you have testimonials you can share?"
 - "What's your background or credibility in this space?"
+
+**Pricing:**
+- "What's your pricing model? Free, freemium, paid tiers, custom?"
+- "Walk me through the tiers and what each includes."
+- "What's your pricing philosophy — what principles guide your pricing?"
+- "What objections do you hear about pricing, and how do you handle them?"
+
+**Technical:**
+- "What's your tech stack? Frontend, backend, infrastructure."
+- "How is your system architected at a high level?"
+- "What external services or APIs do you integrate with?"
+- "Are there technical constraints that affect product decisions?"
 
 **Done when:** The user has set up or skipped each extended file.
 

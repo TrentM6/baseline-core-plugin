@@ -15,6 +15,9 @@ Product analytics turns data into product decisions. It's the discipline of defi
 - `${CLAUDE_PLUGIN_ROOT}/context/core/identity.md` — Product, positioning
 - `${CLAUDE_PLUGIN_ROOT}/context/core/voice.md` — Tone, language rules
 
+**Context (load when relevant):**
+- `${CLAUDE_PLUGIN_ROOT}/context/extended/users.md` — User personas, goals, pain points
+
 **References (load when needed):**
 - `${CLAUDE_PLUGIN_ROOT}/skills/product-analytics/references/metrics-framework.md` — North Star, HEART, pirate metrics
 - `${CLAUDE_PLUGIN_ROOT}/skills/product-analytics/references/experimentation-guide.md` — A/B testing, statistical significance

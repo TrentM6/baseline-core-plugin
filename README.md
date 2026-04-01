@@ -18,17 +18,22 @@ git clone https://github.com/TrentM6/baseline-core-plugin.git
 
 ### 2. Set Up Your Context
 
-Open the folder with Claude Code and run `/setup`. It's a 5-minute guided interview that asks about your business and generates your context files.
+Open the folder with Claude Code and run `/setup`. It's a guided interview that asks about your business and generates your context files.
 
 The setup skill will walk you through:
 - **Identity** (required) — What you do, how you're positioned, what makes you different
 - **Voice** (required) — How you sound, language rules, words to avoid
-- **Design** (optional) — Colors, typography, design system
-- **Formatting** (optional) — Document structure conventions
-- **Audience** (optional) — Who you serve, their pain points, how they talk
-- **Proof Points** (optional) — Case studies, metrics, testimonials
+- **Product** (recommended) — What your product does, features, how it works
+- **Users** (recommended) — User personas, goals, pain points
+- **Audience** (recommended) — Who you market and sell to, buyer personas
+- **Competitive** (recommended) — Competitors, market positioning, alternatives
+- **Design** (recommended) — Colors, typography, design system
+- **Formatting** (recommended) — Document structure conventions
+- **Proof Points** (recommended) — Case studies, metrics, testimonials
+- **Pricing** (recommended) — Pricing model, tiers, objection handling
+- **Technical** (recommended) — Tech stack, architecture, integrations
 
-Identity and voice get you 80% of the value. The rest adds depth for specific skills.
+Identity and voice are required — they get you most of the value. The rest adds depth for specific skills.
 
 ### 3. Upload to Claude
 
@@ -36,7 +41,11 @@ Once your context is populated, zip the folder and upload it as a plugin in Clau
 
 ### Updating Your Context
 
-To update your context later, go back to your local copy, edit the files in `context/` (or re-run `/setup`), re-zip, and re-upload.
+To update your context, go back to your local copy, edit the files in `context/` (or re-run `/setup`), re-zip, and re-upload.
+
+### Updating the Plugin
+
+When a new version of Baseline Core is released, run `/update` to pull the latest skills, frameworks, agents, and hooks from GitHub. Your context files are never touched — only system files get updated. After updating, re-zip and re-upload.
 
 ## What's Inside
 
@@ -64,22 +73,27 @@ To update your context later, go back to your local copy, edit the files in `con
 - **Research** — Gathers market, competitive, or domain context without breaking conversation flow
 - **Context Loader** — Synthesizes your context files into focused briefs for skills
 
-**6 Context Files** — Your business knowledge, loaded by every skill:
+**11 Context Files** — Your business knowledge, loaded by skills on demand:
 
 | File | Required | Used by |
 |------|----------|---------|
 | `identity.md` | Yes | Every skill |
 | `voice.md` | Yes | Every skill |
+| `product.md` | No | UX Design, Prototyping, Product Communications, Technical Documentation |
+| `users.md` | No | UX Design, Research & Synthesis, Product Analytics |
+| `audience.md` | No | Product Marketing, Go-to-Market, Research |
+| `competitive.md` | No | Product Marketing, Go-to-Market, Research, Strategic Advisory |
 | `design.md` | No | Prototyping, UX Design, Visual Communication |
 | `formatting.md` | No | Product Communications, Technical Documentation, Quality Review |
-| `audience.md` | No | Product Marketing, Go-to-Market, Research |
 | `proof-points.md` | No | Product Marketing, Research |
+| `pricing.md` | No | Go-to-Market Planning, Product Marketing |
+| `technical.md` | No | Prototyping, Technical Documentation |
 
 ## How It Works
 
 When you trigger a skill (like `/product-marketing` or `/strategic-advisory`), it loads:
 1. Your business context (identity + voice, always)
-2. Relevant extended context (audience, proof points, etc. — only when needed)
+2. Relevant extended context (product, users, audience, etc. — only when needed)
 3. Shared frameworks (prioritization, messaging, etc. — based on the skill)
 4. Skill-specific references (deeper guidance, loaded on demand)
 
@@ -93,11 +107,12 @@ baseline-core-plugin/
 ├── hooks/hooks.json              # SessionStart routing brain
 ├── output-styles/                # Voice and formatting enforcement
 ├── agents/                       # Quality review, research, context loader
-├── skills/                       # 12 domain skills + setup
+├── skills/                       # 12 domain skills + setup + update
 ├── frameworks/                   # 13 shared methodologies
 └── context/                      # Your business knowledge (customizable)
     ├── core/                     # Identity + voice (required)
-    └── extended/                 # Design, formatting, audience, proof points
+    └── extended/                 # Product, users, audience, competitive, design,
+                                  # formatting, proof points, pricing, technical
 ```
 
 ---

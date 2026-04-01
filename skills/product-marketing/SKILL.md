@@ -19,6 +19,7 @@ Product marketing is the discipline of making products compelling to the right a
 - `${CLAUDE_PLUGIN_ROOT}/context/extended/proof-points.md` — Evidence, case studies, data
 
 **Context (load when relevant):**
+- `${CLAUDE_PLUGIN_ROOT}/context/extended/competitive.md` — Competitors, market positioning
 - `${CLAUDE_PLUGIN_ROOT}/context/examples/marketing-example-linkedin-post.md` — LinkedIn post example
 - `${CLAUDE_PLUGIN_ROOT}/context/examples/sales-example-outreach-email.md` — Outreach email example
 
