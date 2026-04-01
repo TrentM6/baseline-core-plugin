@@ -11,6 +11,7 @@ Product design spans the full spectrum from understanding users to building tang
 **Always load:**
 - `${CLAUDE_PLUGIN_ROOT}/frameworks/workflow-orchestration.md` — Universal workflow pattern
 - `${CLAUDE_PLUGIN_ROOT}/frameworks/ux-heuristics.md` — Nielsen's heuristics, WCAG, cognitive load
+- `${CLAUDE_PLUGIN_ROOT}/frameworks/research.md` — Research methods for discovery, validation, and usability testing
 
 **Context (always load):**
 - `${CLAUDE_PLUGIN_ROOT}/context/core/identity.md` — Product, positioning

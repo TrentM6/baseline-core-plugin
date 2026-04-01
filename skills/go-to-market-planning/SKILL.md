@@ -10,6 +10,11 @@ Go-to-market planning is the discipline of bringing products to users in a way t
 
 **Always load:**
 - `${CLAUDE_PLUGIN_ROOT}/frameworks/workflow-orchestration.md` — Universal workflow pattern
+- `${CLAUDE_PLUGIN_ROOT}/frameworks/strategy.md` — Competitive positioning, strategic choices
+- `${CLAUDE_PLUGIN_ROOT}/frameworks/prioritization.md` — Channel and resource prioritization
+
+**Load when relevant:**
+- `${CLAUDE_PLUGIN_ROOT}/frameworks/change-management.md` — Adoption curves, resistance patterns
 
 **Context (always load):**
 - `${CLAUDE_PLUGIN_ROOT}/context/core/identity.md` — Product, positioning

@@ -11,6 +11,7 @@ Product marketing is the discipline of making products compelling to the right a
 **Always load:**
 - `${CLAUDE_PLUGIN_ROOT}/frameworks/workflow-orchestration.md` — Universal workflow pattern
 - `${CLAUDE_PLUGIN_ROOT}/frameworks/messaging.md` — AIDA, PAS, 4Cs, Hook > Value > CTA
+- `${CLAUDE_PLUGIN_ROOT}/frameworks/strategy.md` — Competitive positioning, Porter's strategies
 
 **Context (always load):**
 - `${CLAUDE_PLUGIN_ROOT}/context/core/identity.md` — Product, positioning

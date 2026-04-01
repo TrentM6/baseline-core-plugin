@@ -11,6 +11,7 @@ Visual communication is the discipline of making complex ideas visible and persu
 **Always load:**
 - `${CLAUDE_PLUGIN_ROOT}/frameworks/workflow-orchestration.md` — Universal workflow pattern
 - `${CLAUDE_PLUGIN_ROOT}/frameworks/messaging.md` — AIDA, PAS, Hook > Value > CTA
+- `${CLAUDE_PLUGIN_ROOT}/frameworks/stakeholder-communication.md` — Audience-tailored communication
 
 **Context (always load):**
 - `${CLAUDE_PLUGIN_ROOT}/context/core/identity.md` — Product, positioning

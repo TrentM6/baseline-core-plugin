@@ -1,6 +1,6 @@
 # Baseline Core
 
-A complete AI system for product work. 14 domain skills, 13 shared frameworks, and customizable business context — so every skill works specifically for your business.
+A complete AI system for product work. 15 domain skills, 14 shared frameworks, and customizable business context — so every skill works specifically for your business.
 
 Skills provide methodology. Context makes it yours. Frameworks give structure.
 
@@ -49,7 +49,7 @@ When a new version of Baseline Core is released, run `/update` to pull the lates
 
 ## What's Inside
 
-**14 Skills** — Structured workflows for product work:
+**15 Skills** — Structured workflows for product work:
 
 | Skill | What it does |
 |-------|-------------|
@@ -60,6 +60,7 @@ When a new version of Baseline Core is released, run `/update` to pull the lates
 | Product Analytics | Metrics, dashboards, A/B tests, segmentation |
 | Content Writing | Blog posts, newsletters, social media, email campaigns, case studies |
 | Sales Enablement | Proposals, pitch decks, outreach emails, demo scripts, objection handling |
+| Customer Success | Onboarding, retention, churn analysis, health scoring, renewals, expansion |
 | Project Management | Planning, sprints, tracking, risk management |
 | Technical Documentation | User guides, API docs, release notes |
 | Visual Communication | Presentations, diagrams, data visualization |
@@ -70,7 +71,7 @@ When a new version of Baseline Core is released, run `/update` to pull the lates
 
 Plus `/plugin-setup` for initial configuration and `/update` for version management.
 
-**13 Frameworks** — Reusable methodologies that skills draw from: workflow orchestration, prioritization, decision-making, strategy, research, messaging, UX heuristics, project management, stakeholder communication, facilitation, change management, pace layering, and session planning.
+**14 Frameworks** — Reusable methodologies that skills draw from: workflow orchestration, prioritization, decision-making, strategy, research, messaging, UX heuristics, project management, stakeholder communication, facilitation, change management, pace layering, session planning, and customer lifecycle.
 
 **3 Agents** — Background support that runs alongside skills:
 - **Quality Review** — Evaluates any skill's output for effectiveness, voice consistency, and fitness for purpose
@@ -83,14 +84,14 @@ Plus `/plugin-setup` for initial configuration and `/update` for version managem
 |------|----------|---------|
 | `identity.md` | Yes | Every skill |
 | `voice.md` | Yes | Every skill |
-| `product.md` | No | Product Design, Product Communications, Technical Documentation, Content Writing |
-| `users.md` | No | Product Design, Research & Synthesis, Product Analytics |
-| `audience.md` | No | Product Marketing, Go-to-Market, Sales Enablement, Content Writing, Research |
+| `product.md` | No | Product Design, Product Communications, Technical Documentation, Content Writing, Customer Success |
+| `users.md` | No | Product Design, Research & Synthesis, Product Analytics, Customer Success |
+| `audience.md` | No | Product Marketing, Go-to-Market, Sales Enablement, Content Writing, Customer Success, Research |
 | `competitive.md` | No | Product Marketing, Go-to-Market, Sales Enablement, Content Writing, Strategic Advisory |
 | `design.md` | No | Product Design, Visual Communication |
 | `formatting.md` | No | Product Communications, Technical Documentation, Quality Review |
-| `proof-points.md` | No | Product Marketing, Sales Enablement, Content Writing, Research |
-| `pricing.md` | No | Go-to-Market Planning, Sales Enablement, Product Marketing |
+| `proof-points.md` | No | Product Marketing, Sales Enablement, Content Writing, Customer Success, Research |
+| `pricing.md` | No | Go-to-Market Planning, Sales Enablement, Product Marketing, Customer Success |
 | `technical.md` | No | Product Design, Technical Documentation |
 
 ## How It Works
@@ -111,7 +112,7 @@ baseline-core-plugin/
 ├── hooks/hooks.json              # SessionStart routing brain
 ├── output-styles/                # Voice and formatting enforcement
 ├── agents/                       # Quality review, research, context loader
-├── skills/                       # 14 domain skills + setup + update
+├── skills/                       # 15 domain skills + setup + update
 ├── frameworks/                   # 13 shared methodologies
 └── context/                      # Your business knowledge (customizable)
     ├── core/                     # Identity + voice (required)

@@ -15,6 +15,7 @@ Load the following files to execute this skill properly:
 - `${CLAUDE_PLUGIN_ROOT}/frameworks/strategy.md` — Strategy frameworks (OKRs, JTBD, North Star, etc.)
 - `${CLAUDE_PLUGIN_ROOT}/frameworks/decision-making.md` — Decision frameworks (Pre-mortem, Reversibility Test, RAPID)
 - `${CLAUDE_PLUGIN_ROOT}/frameworks/prioritization.md` — Prioritization methods (RICE, ICE, MoSCoW, Kano)
+- `${CLAUDE_PLUGIN_ROOT}/frameworks/facilitation.md` — Workshop design, strategy sessions, group alignment
 
 **Context (always load):**
 - `${CLAUDE_PLUGIN_ROOT}/context/core/identity.md` — Services, positioning, terminology
