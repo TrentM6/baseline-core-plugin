@@ -2,9 +2,45 @@
 
 A complete AI system for product work. 12 domain skills, 13 shared frameworks, and customizable business context — so every skill works specifically for your business.
 
+Skills provide methodology. Context makes it yours. Frameworks give structure.
+
+## Getting Started
+
+Baseline Core ships with templates for business context. You customize it once for your business, then upload your version as a plugin to Claude.
+
+### 1. Download
+
+Clone this repo or download the zip:
+
+```
+git clone https://github.com/TrentM6/baseline-core-plugin.git
+```
+
+### 2. Set Up Your Context
+
+Open the folder with Claude Code and run `/setup`. It's a 5-minute guided interview that asks about your business and generates your context files.
+
+The setup skill will walk you through:
+- **Identity** (required) — What you do, how you're positioned, what makes you different
+- **Voice** (required) — How you sound, language rules, words to avoid
+- **Design** (optional) — Colors, typography, design system
+- **Formatting** (optional) — Document structure conventions
+- **Audience** (optional) — Who you serve, their pain points, how they talk
+- **Proof Points** (optional) — Case studies, metrics, testimonials
+
+Identity and voice get you 80% of the value. The rest adds depth for specific skills.
+
+### 3. Upload to Claude
+
+Once your context is populated, zip the folder and upload it as a plugin in Claude. Your customized plugin now works in any project, any directory — your business context travels with it.
+
+### Updating Your Context
+
+To update your context later, go back to your local copy, edit the files in `context/` (or re-run `/setup`), re-zip, and re-upload.
+
 ## What's Inside
 
-**Skills** — Structured workflows for product work:
+**12 Skills** — Structured workflows for product work:
 
 | Skill | What it does |
 |-------|-------------|
@@ -21,46 +57,14 @@ A complete AI system for product work. 12 domain skills, 13 shared frameworks, a
 | Go-to-Market Planning | Launch planning, channel strategy, distribution |
 | Skill Building | Create new skills for the system |
 
-**Frameworks** — Reusable methodologies that skills draw from: workflow orchestration, prioritization, decision-making, strategy, research, messaging, UX heuristics, project management, stakeholder communication, facilitation, change management, pace layering, and session planning.
+**13 Frameworks** — Reusable methodologies that skills draw from: workflow orchestration, prioritization, decision-making, strategy, research, messaging, UX heuristics, project management, stakeholder communication, facilitation, change management, pace layering, and session planning.
 
-**Agents** — Background support that runs alongside skills:
+**3 Agents** — Background support that runs alongside skills:
 - **Quality Review** — Checks deliverables against your voice, formatting, and content standards
 - **Research** — Gathers market, competitive, or domain context without breaking conversation flow
 - **Context Loader** — Synthesizes your context files into focused briefs for skills
 
-**Context** — Your business knowledge, loaded by every skill:
-- `identity.md` — Who you are, what you do, how you're positioned
-- `voice.md` — How you sound, language rules, words to avoid
-- `design.md` — Colors, typography, design system
-- `formatting.md` — Document structure conventions
-- `audience.md` — Who you serve, their pain points, how they talk
-- `proof-points.md` — Case studies, metrics, testimonials
-
-## Getting Started
-
-1. Install the plugin
-2. Run `/setup` — a guided interview that builds your context files in about 5 minutes
-3. Start using skills — every skill now works with your business context
-
-The `/setup` skill asks you about your company, how you communicate, and who you serve, then generates context files from your answers. Identity and voice are required. Design, formatting, audience, and proof points are recommended but optional.
-
-You can run `/setup` again anytime to update your context.
-
-## How It Works
-
-Skills provide methodology. Context makes it yours. Frameworks give structure.
-
-When you trigger a skill (like `/product-marketing` or `/strategic-advisory`), it loads:
-1. Your business context (identity + voice, always)
-2. Relevant extended context (audience, proof points, etc. — only when needed)
-3. Shared frameworks (prioritization, messaging, etc. — based on the skill)
-4. Skill-specific references (deeper guidance, loaded on demand)
-
-The plugin's routing brain automatically matches your request to the right skill. If no skill matches, it uses your loaded business context to answer with general product expertise.
-
-## Context Files
-
-Context files are the customizable layer. They live in `context/` and start as templates with instructions. The `/setup` skill populates them through conversation, or you can edit them directly.
+**6 Context Files** — Your business knowledge, loaded by every skill:
 
 | File | Required | Used by |
 |------|----------|---------|
@@ -71,7 +75,15 @@ Context files are the customizable layer. They live in `context/` and start as t
 | `audience.md` | No | Product Marketing, Go-to-Market, Research |
 | `proof-points.md` | No | Product Marketing, Research |
 
-Without context files, skills still work — they just produce generic output. With identity and voice alone, you get 80% of the value. The extended files add depth for specific skills.
+## How It Works
+
+When you trigger a skill (like `/product-marketing` or `/strategic-advisory`), it loads:
+1. Your business context (identity + voice, always)
+2. Relevant extended context (audience, proof points, etc. — only when needed)
+3. Shared frameworks (prioritization, messaging, etc. — based on the skill)
+4. Skill-specific references (deeper guidance, loaded on demand)
+
+The plugin's routing brain automatically matches your request to the right skill. If no skill matches, it uses your loaded business context to answer with general product expertise.
 
 ## Project Structure
 
